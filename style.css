@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@600;700&family=Poppins:wght@500&display=swap");
+
+/* Reset default styles for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*Tells the browser to include any border and padding in the values you specify for an element's width and height */
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth; /* Links will scroll smoothly to the target content, instead of instantly jumping to it */
+  scrollbar-color: rgb(190, 107, 177) rgb(113, 56, 136); /* Set scrollbar color to match the theme of the website */
+  color: #e5e7eb;
+}
+
+body {
+  background-color: #1f2937;
+}
+
+.header {
+
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 15vh;
+  background-color: #1f2937;
+}
+
+.navigation {
+  margin-top: 1.5vh;
+  margin-left: 25vw;
+}
+
+.header-wrapper {
+
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #1f2937;
+}
+
+.header-text {
+width: 40%;
+}
+.header-image {
+  display: flex;
+  height: 200px;
+}
