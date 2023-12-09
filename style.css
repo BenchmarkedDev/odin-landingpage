@@ -28,8 +28,13 @@ body {
 .navigation {
   margin-top: 1.5vh;
   margin-left: 25vw;
+  
 }
 
+
+.navigation a { 
+text-decoration: none;
+}
 .header-wrapper {
 
   position: relative;
@@ -41,7 +46,66 @@ body {
 .header-text {
 width: 40%;
 }
+
+.sign-up {
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  
+}
 .header-image {
   display: flex;
   height: 200px;
 }
+
+.info-wrapper {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.info-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+
+.info-squares {
+  display: flex;
+  justify-content: center;
+
+}
+
+.square {
+  height: 300px; 
+  width: 400px;
+  border: 10px solid cyan;
+  border-radius: 200px;
+  margin: 20px;
+  
+  
+}
+
+.info-boxes {
+  display: flex;
+  
+
+}
+
+
+.info-boxes p {
+
+  width: 500px;
+
+  
+}
+
+
+
+  
+  
+  
