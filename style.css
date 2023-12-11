@@ -70,40 +70,68 @@ width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 
 .info-squares {
+  
   display: flex;
-  justify-content: center;
+  justify-content: center
 
 }
 
 .square {
   height: 300px; 
-  width: 400px;
+  width: 300px;
   border: 10px solid cyan;
-  border-radius: 200px;
-  margin: 20px;
+  border-radius: 20px;
+  margin: 40px;
+
   
   
 }
 
 .info-boxes {
   display: flex;
+  justify-content: center;
+  text-align: center;
   
 
 }
 
 
 .info-boxes p {
+  height: 30px; 
+  width: 400px;
+  
 
-  width: 500px;
+  
 
   
 }
 
+
+.quote-section {
+
+display: flex;
+margin-top: 160px;
+justify-content: center;
+
+
+}
+
+.quote-main {
+  text-align: center;
+  margin-top: 100px;
+
+
+}
+
+.quote-sub {
+text-align: center;
+
+}
 
 
   
