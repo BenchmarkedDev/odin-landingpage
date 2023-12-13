@@ -112,11 +112,9 @@ width: 40%;
 }
 
 
-.quote-section {
+.quote-wrapper {
 
-display: flex;
-margin-top: 160px;
-justify-content: center;
+padding: 100px;
 
 
 }
@@ -124,13 +122,34 @@ justify-content: center;
 .quote-main {
   text-align: center;
   margin-top: 100px;
+  padding: 10px;
+
 
 
 }
 
 .quote-sub {
-text-align: center;
+text-align: right;
+margin-right: 50px;
+}
 
+.footer-wrapper {
+
+  background-color: blue;
+  margin: 100px;
+  justify-content: center;
+}
+
+.foot-text-wrapper {
+  text-align: center;
+  margin-top: 100px;
+}
+
+
+.foot-button {
+  float: right;
+  margin-bottom: 120px;
+  margin-right: 200px;
 }
 
 
